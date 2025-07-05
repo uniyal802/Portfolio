@@ -11,6 +11,7 @@ import {
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
 import AOS from 'aos';
+import './index.css'; 
 import 'aos/dist/aos.css';
 import illustration from './assets/illustration.svg';
 import './App.css';
