@@ -36,10 +36,6 @@ portfolio/
 ├── package.json
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🛠️ Tech Stack
@@ -72,6 +68,7 @@ Copy
 Edit
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+---
 
 ⚙️ Tailwind Setup (if not done)
 tailwind.config.js:
@@ -102,6 +99,7 @@ Edit
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 ✉️ EmailJS Integration (Contact Form)
 Go to https://www.emailjs.com
 
@@ -126,7 +124,4 @@ emailjs.sendForm(
 )
 🚀 Local Development
 Run the dev server:
-bash
-Copy
-Edit
 npm run dev
