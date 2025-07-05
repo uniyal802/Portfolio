@@ -16,25 +16,7 @@ The website showcases my:
 
 ## 🔗 Live Site
 
-👉 [View Live Portfolio](https://your-vercel-url.vercel.app)
-
----
-
-## 📁 Folder Structure
-
-portfolio/
-├── public/
-│ └── index.html
-├── src/
-│ ├── App.js / App.tsx
-│ ├── assets/
-│ ├── index.css
-│ ├── index.js
-│ └── components/
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
+👉 [View Live Portfolio] https://portfolio-theta-khaki-49.vercel.app/
 
 ---
 
@@ -53,28 +35,12 @@ portfolio/
 
 ## 📦 Dependencies to Install
 
-```bash
-npm install
-If you face issues, install these directly:
-
-bash
-Copy
-Edit
-npm install react-icons aos framer-motion react-simple-typewriter emailjs-com
-If you're using Tailwind CSS:
-
-bash
-Copy
-Edit
+--> using Tailwind CSS:
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
----
 
-⚙️ Tailwind Setup (if not done)
+⚙️ Tailwind Setup 
 tailwind.config.js:
-js
-Copy
-Edit
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
@@ -82,23 +48,20 @@ module.exports = {
   },
   plugins: [],
 }
-postcss.config.js:
-js
-Copy
-Edit
+
+--> postcss.config.js:
 module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
 }
-index.css:
-css
-Copy
-Edit
+
+--> index.css:
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 ✉️ EmailJS Integration (Contact Form)
 Go to https://www.emailjs.com
@@ -112,16 +75,13 @@ Template ID
 Public Key
 
 Add them in your App.js or contact form code:
-
-js
-Copy
-Edit
 emailjs.sendForm(
   'your_service_id',
   'your_template_id',
   formRef.current,
   'your_public_key'
 )
+
 🚀 Local Development
 Run the dev server:
 npm run dev
