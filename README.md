@@ -1,4 +1,4 @@
-# 🚀 Gaurav Uniyal's Developer Portfolio
+# 🚀 Gaurav Uniyal Portfolio
 
 Welcome to my personal developer portfolio.  
 It is built using **React**, **Tailwind CSS**, **Framer Motion**, and **EmailJS**, and is deployed on **Vercel**.
