@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Health Insurance Cost Prediction",
+    "github": "https://github.com/uniyal802/Health-insurance-cost-prediction",
+    "description": "Predicts insurance costs using regression based on features like age, BMI, smoking status, etc."
+  },
+  {
+    "title": "Hyperspectral Image Classification (HSI)",
+    "github": "https://github.com/uniyal802/Hyperspectral-Image-Classification",
+    "description": "Uses CNN and Bi-LSTM models to classify land cover types from hyperspectral images."
+  },
+  {
+    "title": "MindKindness – AI Mental Health Web App",
+    "github": "https://github.com/uniyal802/MindKindness",
+    "description": "A full-stack AI-driven platform promoting mental well-being through ML insights."
+  }
+]

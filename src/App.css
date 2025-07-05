@@ -1,0 +1,16 @@
+@keyframes blurPulse {
+  0% { filter: blur(60px); }
+  50% { filter: blur(80px); }
+  100% { filter: blur(60px); }
+}
+.animate-background-blur {
+  animation: blurPulse 12s ease-in-out infinite;
+}
+.floating-icons {
+  pointer-events: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
